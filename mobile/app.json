@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "Blank Template",
+    "slug": "mobile",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": ["ios", "android", "web"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/dev-icon.png",
+    "splash": {
+      "image": "./assets/dev-splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#00a4bf"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.phox.devdemo",
+      "buildNumber": "1.0.0"
+    }
+  }
+}

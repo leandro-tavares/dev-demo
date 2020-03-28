@@ -1,0 +1,37 @@
+.register-container .content {
+  width: 100%;
+  padding: 96px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.register-container .content section {
+  width: 100%;
+  max-width: 380px;
+}
+
+.register-container .content section h1 {
+  margin: 64px 0 32px;
+}
+.register-container .content section p {
+  font-size: 16px;
+  color: gray;
+}
+
+.register-container .content form {
+  width: 100%;
+  max-width: 450px;
+}
+
+.register-container .content form input {
+  margin-top: 8px;
+}
+
+.register-container .content form .input-group {
+  display: flex;
+}
+
+.register-container .content form .input-group input + input {
+  margin-left: 8px;
+}
